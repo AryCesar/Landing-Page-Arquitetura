@@ -1,0 +1,133 @@
+/* Reset CSS Simples */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+}
+img, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /* area superior */
+header{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url(../img/topoFundo.svg);
+    background-size: cover;
+  }
+header h1, header p {
+    margin-left: 62px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+}
+header h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+header p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+  /* area de informação */
+#info-area{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+}
+section p{
+    margin-left: 170px;
+    margin-bottom: 66px;
+    margin-top: 96px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+section span{
+    font-size: 40px;
+    font-weight: 600;
+}
+#finalParagraph{
+    margin-right: 150px;
+}
+/* area dcentral */
+main{
+    display: flex;
+    align-items: center;
+}
+main p{
+    margin-top: 85px;
+    margin-left: 70px;
+    margin-right: 64px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+main span{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+}
+img{
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+/* Formulario/footer */
+footer{
+    margin-top: 90px;
+    background-image: url(../img/formFundo.svg);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form h2{
+    margin-bottom: 50px;
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+form input{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 35%;
+    height: 70px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+button{
+    background-color:#C07212 ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 22px 45px 22px 45px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 87px;
+    margin-top: 28px;
+}
