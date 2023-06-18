@@ -130,4 +130,12 @@ button{
     border: none;
     margin-bottom: 87px;
     margin-top: 28px;
+    transition: border-radius 3,5s;
+}
+button:hover{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 10%;
+   
+   
 }
