@@ -1,5 +1,7 @@
 # Landing-Page-Arquitetura
+Desafio 01
 Repositório referente ao primeiro desafio da Escola DNC.
+
 Link do Site:
 https://arquiteturapage.netlify.app/
 Link da Planilha de Dados:
